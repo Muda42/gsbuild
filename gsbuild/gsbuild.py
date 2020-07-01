@@ -107,7 +107,7 @@ def webfont(style, alphabet):
     return product_sans
 
 
-if __name__ == '__main__':
+def main(args=None):
 
     argument_parser = argparse.ArgumentParser(description='Builds an installable TTF file of Google\'s Product Sans')
     argument_parser.add_argument('alphabet',
@@ -163,3 +163,7 @@ if __name__ == '__main__':
 
     os.chdir(starting_dir)
     shutil.rmtree(temp_dir)
+
+
+if __name__ == '__main__':
+    main()
