@@ -8,7 +8,7 @@
 Open a terminal and run `$ pip install gsbuild`
 
 ## Usage
-Open a terminal and run `$ py gsbuild [alphabet]`  
+Open a terminal and run `$ gsbuild.py [alphabet]`  
 The available alphabets are `cyrillic`, `greek`, `latin-ext` and `latin`
 
 ## License
