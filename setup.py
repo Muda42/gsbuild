@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gsbuild-Muda42",
+    name="gsbuild",
     version="1.0",
     author="Muda42",
     author_email="polak.daniel05@outlook.com",
