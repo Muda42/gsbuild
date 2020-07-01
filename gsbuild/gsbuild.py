@@ -124,7 +124,7 @@ def main(args=None):
 
     starting_dir = os.getcwd()
     temp_dir = tempfile.mkdtemp()
-    install_dir = starting_dir + '\\Google Sans\\' + arguments.alphabet
+    install_dir = starting_dir + '/Google Sans/' + arguments.alphabet
 
     styles = {'thin_italic',
               'light_italic',
@@ -157,7 +157,7 @@ def main(args=None):
         print('Converting ' + font.filename + ' to ttFont        ', end='\r')
         ttf_font = font.filename + '.ttf'
         woff2.decompress(font.filename, ttf_font)
-        shutil.move(ttf_font, install_dir + '\\' + ttf_font)
+        shutil.move(ttf_font, install_dir + '/' + ttf_font)
 
     print('ttFont files have been created at ' + os.path.realpath(install_dir))
 
