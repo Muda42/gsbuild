@@ -5,10 +5,10 @@
 ##### Note: Google Sans is published under the following [license](https://fonts.google.com/license/googlerestricted), do NOT use it commercially
 
 ## Installation
-Open a terminal and run `pip install gsbuild`
+Open a terminal and run `$ pip install gsbuild`
 
 ## Usage
-Open a terminal and run `gsbuild [alphabet]`  
+Open a terminal and run `$ gsbuild [alphabet]`  
 The available alphabets are `cyrillic`, `greek`, `latin-ext` and `latin`
 
 ## License
