@@ -1,8 +1,8 @@
 ![gsbuild](https://raw.githubusercontent.com/Muda42/gsbuild/master/gsbuild.png)
 
-##### Build Google's Product Sans Font using Google's Font API
+##### Build Google's Product Sans Font using [Google's Font API](https://fonts.googleapis.com/css?family=Product+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i)
 
-##### Note: Google Sans is published under the following [license](https://fonts.google.com/license/googlerestricted), do NOT use it commercially
+##### Note: Google/Product Sans is published under the following [license](https://fonts.google.com/license/googlerestricted), do NOT use it commercially
 
 ## Installation
 Open a terminal and run `$ pip install gsbuild`
@@ -15,7 +15,7 @@ The available alphabets are `cyrillic`, `greek`, `latin-ext` and `latin`
 ```
 MIT License
 
-Copyright (c) 2019 Muda42
+Copyright (c) 2020 Muda42
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

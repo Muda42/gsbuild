@@ -124,7 +124,7 @@ def main(args=None):
 
     starting_dir = os.getcwd()
     temp_dir = tempfile.mkdtemp()
-    install_dir = starting_dir + '/Google Sans/' + arguments.alphabet
+    install_dir = starting_dir + '/Product Sans/' + arguments.alphabet
 
     styles = {'thin_italic',
               'light_italic',
