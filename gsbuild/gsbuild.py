@@ -143,7 +143,7 @@ def main(args=None):
         shutil.rmtree(install_dir)
     os.makedirs(install_dir)
     os.chdir(temp_dir)
-    print('Downloading webfonts from Google\'s API')
+    print('Downloading webfonts from Google\'s Font API')
     for element in styles:
         font = webfont(element, arguments.alphabet)
         try:
