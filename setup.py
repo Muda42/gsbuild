@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'gsbuild = gsbuild:main'
+            'gsbuild = main'
         ]
     },
     python_requires='>=3.6',
