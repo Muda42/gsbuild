@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name="gsbuild",
-    version="1.4.4",
+    version="1.4.5",
     author="Muda42",
     author_email="polak.daniel05@outlook.com",
     description="Compiler for Google's Product Sans font",
@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'gsbuild = main'
+            'gsbuild = gsbuild:main'
         ]
     },
     python_requires='>=3.6',
