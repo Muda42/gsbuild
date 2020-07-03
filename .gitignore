@@ -3,3 +3,4 @@
 /build
 /dist
 /gsbuild.egg-info
+/__pycache__
