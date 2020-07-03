@@ -1,5 +1,7 @@
 ![gsbuild](https://raw.githubusercontent.com/Muda42/gsbuild/master/gsbuild.png)
 
+![version](https://raw.githubusercontent.com/Muda42/gsbuild/master/version.png)
+
 ##### Build Google's Product Sans Font using [Google's Font API](https://fonts.googleapis.com/css?family=Product+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i)
 
 ##### Note: Google/Product Sans is published under the following [license](https://fonts.google.com/license/googlerestricted), do NOT use it commercially
